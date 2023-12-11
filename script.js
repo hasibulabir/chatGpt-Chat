@@ -34,7 +34,7 @@ const createChatElement = (content, className) => {
 const getChatResponse = async (incomingChatDiv) => {
     const API_URL = "https://api.openai.com/v1/completions";
     const pElement = document.createElement("p");
-    const authToken = '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';
+    const authToken = '';
 
 
     // Define the properties and data for the API request
